@@ -1,0 +1,58 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFrameworks>netstandard2.0;net48;netcoreapp2.2</TargetFrameworks>
+    <RootNamespace>Sara.NETStandard.Data</RootNamespace>
+    <AssemblyName>Sara.NETStandard.Data</AssemblyName>
+    <PackageId>Sara-Data</PackageId>
+    <Version>1.0.2</Version>
+    <Authors>Sara LaFleur</Authors>
+    <Company>Saras</Company>
+    <Copyright>Sara LaFleur, 2019</Copyright>
+    <NeutralLanguage> </NeutralLanguage>
+    <frameworkAssemblies>
+      <frameworkAssembly assemblyName="System" targetFramework="net48" />
+      <frameworkAssembly assemblyName="System.Core" targetFramework="net48" />
+      <frameworkAssembly assemblyName="System.Data" targetFramework="net48" />
+      <frameworkAssembly assemblyName="System.Drawing" targetFramework="net48" />
+      <frameworkAssembly assemblyName="System.IO.Compression.FileSystem" targetFramework="net48" />
+      <frameworkAssembly assemblyName="System.Numerics" targetFramework="net48" />
+      <frameworkAssembly assemblyName="System.Runtime.Serialization" targetFramework="net48" />
+      <frameworkAssembly assemblyName="System.Xml" targetFramework="net48" />
+      <frameworkAssembly assemblyName="System.Xml.Linq" targetFramework="net48" />
+    </frameworkAssemblies>
+
+    <dependencies>
+      <group targetFramework="netstandard2.0">
+        <dependency id="Sara-Common" version="[1,2)" />
+        <dependency id="Sara-Logging" version="[1,2)" />
+        <dependency id="System.IO.Compression" version="4.3.0" />
+        <dependency id="System.Security.AccessControl" version="4.6.0" />
+        <dependency id="System.Security.Permissions" version="4.6.0" />
+        <dependency id="System.Security.Principal.Windows" version="4.6.0" />
+      </group>
+      <group targetFramework="netcoreapp2.2">
+        <dependency id="Sara-Common" version="[1,2)" />
+        <dependency id="Sara-Logging" version="[1,2)" />
+        <dependency id="System.IO.Compression" version="4.3.0" />
+        <dependency id="System.Security.AccessControl" version="4.6.0" />
+        <dependency id="System.Security.Permissions" version="4.6.0" />
+        <dependency id="System.Security.Principal.Windows" version="4.6.0" />
+      </group>
+      <group targetFramework="net48">
+        <dependency id="Sara-Common" version="[1,2)" />
+        <dependency id="Sara-Logging" version="[1,2)" />
+        <dependency id="System.IO.Compression" version="4.3.0" />
+        <dependency id="System.Security.AccessControl" version="4.6.0" />
+        <dependency id="System.Security.Permissions" version="4.6.0" />
+        <dependency id="System.Security.Principal.Windows" version="4.6.0" />
+      </group>
+    </dependencies>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Sara-Logging" Version="1.0.5" />
+    <PackageReference Include="System.Data.SqlClient" Version="4.7.0" />
+  </ItemGroup>
+
+</Project>
