@@ -1,10 +1,10 @@
 ﻿using System;
 using System.Globalization;
 using System.Reflection;
-using Sara.NETStandard.Data.SQL.CommandFormat;
+using Sara.Data.SQL.CommandFormat;
 using Sara.NETStandard.Logging;
 
-namespace Sara.NETStandard.Data.SQL
+namespace Sara.Data.SQL
 {
     public class MsSqlDatabase : IExternalDatabase
     {

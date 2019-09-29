@@ -1,7 +1,7 @@
 ﻿using System;
 using System.Collections;
 
-namespace Sara.NETStandard.Data.SQL.CommandFormat
+namespace Sara.Data.SQL.CommandFormat
 {
     public class SqlCommandFormat : IDatabaseCommandFormat
     {

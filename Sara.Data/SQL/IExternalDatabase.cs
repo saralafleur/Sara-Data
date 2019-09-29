@@ -1,7 +1,7 @@
 ﻿using System;
-using Sara.NETStandard.Data.SQL.CommandFormat;
+using Sara.Data.SQL.CommandFormat;
 
-namespace Sara.NETStandard.Data.SQL
+namespace Sara.Data.SQL
 {
     /// <summary>
     /// All external database implementations should implement this interface. 

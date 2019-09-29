@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace Sara.NETStandard.Data.SQL.CommandFormat
+namespace Sara.Data.SQL.CommandFormat
 {
     public interface IDatabaseCommandFormat
     {

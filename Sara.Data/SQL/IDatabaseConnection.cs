@@ -1,7 +1,7 @@
 ﻿using System;
 using System.Data;
 
-namespace Sara.NETStandard.Data.SQL
+namespace Sara.Data.SQL
 {
     /// <summary>
     /// All database connectors should implement this class. 

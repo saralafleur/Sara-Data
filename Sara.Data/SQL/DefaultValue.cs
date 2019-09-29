@@ -1,4 +1,4 @@
-﻿namespace Sara.NETStandard.Data.SQL
+﻿namespace Sara.Data.SQL
 {
     public static class DefaultValue
     {

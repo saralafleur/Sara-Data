@@ -2,8 +2,8 @@
 
   <PropertyGroup>
     <TargetFrameworks>netstandard2.0;net48;netcoreapp2.2</TargetFrameworks>
-    <RootNamespace>Sara.NETStandard.Data</RootNamespace>
-    <AssemblyName>Sara.NETStandard.Data</AssemblyName>
+    <RootNamespace>Sara.Data</RootNamespace>
+    <AssemblyName>Sara.Data</AssemblyName>
     <PackageId>Sara-Data</PackageId>
     <Version>1.0.2</Version>
     <Authors>Sara LaFleur</Authors>

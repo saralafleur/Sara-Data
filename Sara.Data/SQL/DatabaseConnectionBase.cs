@@ -7,7 +7,7 @@ using System.Reflection;
 using System.Text;
 using Sara.NETStandard.Logging;
 
-namespace Sara.NETStandard.Data.SQL
+namespace Sara.Data.SQL
 {
     internal abstract class DatabaseConnectionBase
     {

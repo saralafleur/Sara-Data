@@ -1,7 +1,7 @@
 ﻿using System.Data;
 using System.Data.SqlClient;
 
-namespace Sara.NETStandard.Data.SQL
+namespace Sara.Data.SQL
 {
     class MsSqlDatabaseConnection : DatabaseConnectionBase, IDatabaseConnection
     {
