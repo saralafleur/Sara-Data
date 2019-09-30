@@ -5,7 +5,7 @@ using System.Data;
 using System.Diagnostics;
 using System.Reflection;
 using System.Text;
-using Sara.NETStandard.Logging;
+using Sara.Logging;
 
 namespace Sara.Data.SQL
 {

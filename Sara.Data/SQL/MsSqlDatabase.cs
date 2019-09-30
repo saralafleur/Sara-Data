@@ -2,7 +2,7 @@
 using System.Globalization;
 using System.Reflection;
 using Sara.Data.SQL.CommandFormat;
-using Sara.NETStandard.Logging;
+using Sara.Logging;
 
 namespace Sara.Data.SQL
 {

@@ -2,7 +2,7 @@
 <package xmlns="http://schemas.microsoft.com/packaging/2013/01/nuspec.xsd">
   <metadata>
     <id>Sara-Data</id>
-    <version>1.2.1</version>
+    <version>1.2.5</version>
     <title>Sara DATA C#</title>
     <authors>Sara LaFleur</authors>
     <owners>Sara LaFleur</owners>
@@ -18,15 +18,15 @@
 
     <dependencies>
       <group targetFramework="netstandard2.0">
-        <dependency id="Sara-Logging" version="[1.2.1,2)" />
+        <dependency id="Sara-Logging" version="[1.2.5,2)" />
         <dependency id="System.Data.SqlClient" version="4.7.0" />
       </group>
       <group targetFramework="netcoreapp2.2">
-        <dependency id="Sara-Logging" version="[1.2.1,2)" />
+        <dependency id="Sara-Logging" version="[1.2.5,2)" />
         <dependency id="System.Data.SqlClient" version="4.7.0" />
       </group>
       <group targetFramework="net48">
-        <dependency id="Sara-Logging" version="[1.2.1,2)" />
+        <dependency id="Sara-Logging" version="[1.2.5,2)" />
         <dependency id="System.Data.SqlClient" version="4.7.0" />
       </group>
     </dependencies>

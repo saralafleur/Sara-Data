@@ -5,10 +5,10 @@
     <RootNamespace>Sara.Data</RootNamespace>
     <AssemblyName>Sara.Data</AssemblyName>
     <PackageId>Sara-Data</PackageId>
-    <Version>1.0.2</Version>
+    <Version>1.2.5</Version>
     <Authors>Sara LaFleur</Authors>
     <Company>Saras</Company>
-    <Copyright>Sara LaFleur, 2019</Copyright>
+    <Copyright></Copyright>
     <NeutralLanguage> </NeutralLanguage>
     <frameworkAssemblies>
       <frameworkAssembly assemblyName="System" targetFramework="net48" />
@@ -51,7 +51,8 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <PackageReference Include="Sara-Logging" Version="1.0.5" />
+    <PackageReference Include="Sara-Common" Version="1.2.5" />
+    <PackageReference Include="Sara-Logging" Version="1.2.5" />
     <PackageReference Include="System.Data.SqlClient" Version="4.7.0" />
   </ItemGroup>
 
