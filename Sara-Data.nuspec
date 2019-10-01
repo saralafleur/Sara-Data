@@ -2,7 +2,7 @@
 <package xmlns="http://schemas.microsoft.com/packaging/2013/01/nuspec.xsd">
   <metadata>
     <id>Sara-Data</id>
-    <version>1.2.5</version>
+    <version>1.2.9</version>
     <title>Sara DATA C#</title>
     <authors>Sara LaFleur</authors>
     <owners>Sara LaFleur</owners>
@@ -10,7 +10,7 @@
     <iconUrl>https://raw.githubusercontent.com/saralafleur/Sara-Common/master/Avatar4.jpg</iconUrl>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
     <description>Sara-Data contains helper methods and frameworks for accessing data.   Significant features include retrying logic for accessing a SQL Server.  Logging issues with connectivity and deadlock failures that may occur. If everything fails, the data Logged.  The framework supports MSSQL and MySQL.</description>
-    <releaseNotes>Initial version.</releaseNotes>
+    <releaseNotes>Sara-Logger builds...</releaseNotes>
     <copyright>(c) 2019, Sara LaFleur</copyright>
     <tags></tags>
     <license type="file">LICENSE.txt</license>
@@ -18,15 +18,15 @@
 
     <dependencies>
       <group targetFramework="netstandard2.0">
-        <dependency id="Sara-Logging" version="[1.2.5,2)" />
+        <dependency id="Sara-Logging" version="[1.2.9,2)" />
         <dependency id="System.Data.SqlClient" version="4.7.0" />
       </group>
       <group targetFramework="netcoreapp2.2">
-        <dependency id="Sara-Logging" version="[1.2.5,2)" />
+        <dependency id="Sara-Logging" version="[1.2.9,2)" />
         <dependency id="System.Data.SqlClient" version="4.7.0" />
       </group>
       <group targetFramework="net48">
-        <dependency id="Sara-Logging" version="[1.2.5,2)" />
+        <dependency id="Sara-Logging" version="[1.2.9,2)" />
         <dependency id="System.Data.SqlClient" version="4.7.0" />
       </group>
     </dependencies>
